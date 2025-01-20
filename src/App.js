@@ -388,7 +388,7 @@ const App = () => {
       handleSubmit = {handleSubmit}
       />
       <main>
-        {fetchError && <p>{`${fetchError}`}</p> ||
+        {fetchError && <p>{`${fetchError}`}</p> &&
       <Content
       items = {items}
       handleCheck = {handleCheck}
