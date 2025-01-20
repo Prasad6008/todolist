@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "check": false,
+      "task": "Workout"
+    },
+    {
+      "id": "2",
+      "check": false,
+      "task": "Practice Coding"
+    },
+    {
+      "id": "3",
+      "check": false,
+      "task": "Dinner"
+    }
+  ]
+}

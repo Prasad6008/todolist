@@ -1,0 +1,154 @@
+/* * 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    height: 100vh;
+}
+
+header 
+{
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+main 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    overflow-y: hidden;
+    font-size: 30px;
+    scroll-behavior: smooth;
+}
+
+footer
+{
+    height: 10vh;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.item 
+{
+    list-style-type:none;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label 
+{
+    padding: 0px 10px;
+}
+
+button
+{
+    color: red;
+    font-size: 20px;
+    border: none;
+    background-color: bisque;
+}
+
+form 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+form input 
+{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+form button:hover,form button:focus
+{
+    background-color: rgb(0, 255, 0);
+}
+
+.proj3
+{
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.box
+{
+    width: 100px;
+    min-height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.proj3 button 
+{
+    background-color: blue;
+    color: white;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.proj3 button:active
+{
+    background-color: rgb(16, 95, 44);
+}
+ */
+
+ *
+{
+  margin: 0;
+  padding: 0;
+}
+
+#button_div
+{
+  width: 100%;
+  display: flex;
+}
+
+#button_div button 
+{
+  flex: 1;
+  font-size: 20px;
+  background-color: bisque;
+}
+
+#button_div button:focus
+{
+  background-color: gray;
+  color: white;
+}
+
+#data 
+{
+ margin: 0px 20px;
+}
